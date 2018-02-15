@@ -1,0 +1,56 @@
+*{
+  width: 100%;
+  height: 100%;
+  padding: 0;margin: 0;
+}
+
+h2{
+  width: 100%;
+  height:auto;
+  padding-bottom: 5px;
+}
+
+body{
+  width: 50%;
+  margin: 0 auto;
+  height: 50%;
+  padding-top: 5%;
+}
+
+input{
+  width: 10%;
+  padding: 5px;
+  margin: 5px;
+  height: 20px;
+}
+
+ul{
+  width: 100%;
+  height:auto;
+}
+
+li{
+  width: 100%;height: auto;
+}
+
+button{
+  width:50%;
+  margin: 0 0 0 25%;
+}
+
+form{
+  width:100%;
+  height: auto;
+}
+
+.contenu{
+  width: 100%;height: 100%;
+  overflow: scroll;
+}
+.formulaire{
+  width: 100%;height: 25%;
+}
+
+.done{
+  text-decoration: line-through;
+}
