@@ -19,7 +19,7 @@
 
   <div class="formulaire">
     <?php
-    include 'formulaire.php'
+    include 'formulaire.php';
      ?>
   </div>
 </body>
