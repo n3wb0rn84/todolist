@@ -6,7 +6,7 @@
     array_push($taskArray->todo, $taskToAdd);
     $Wallah=json_encode($taskArray);
     file_put_contents('assets/JSON/todo.json',$Wallah);
-    header('location: index.php');
+    header('location:index.php');
   }
 
  ?>
