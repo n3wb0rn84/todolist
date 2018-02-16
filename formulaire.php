@@ -21,23 +21,10 @@
 
 
  ?>
-<h2>A FAIRE</h2>
-<form class="" action="index.php" method="post">
-<ul>
-  <?php
-  foreach ($todo1 as $key=>$value){
-  ?>
-  <li><input type="checkbox" name="checkbox[]" value="<?=$key?>"><?=$value?></li>
-<?php }?>
-<button type="submit" name="button">Enregistrer</button>
-</ul>
-</form>
-<h2>ARCHIVE</h2>
-<ul>
-  <?php
-  foreach ($done1 as $key=>$value){
-  ?>
-  <li class="done"><input type="checkbox" name="checkboxed" value="<?=$key?>" checked="true"><?=$value?></li>
-<?php }?>
-<?php ?>
-</ul>
+ <form class="" action="index.php" method="post">
+ <h2>Ajouter une tâche</h2>
+ <caption>La tâche à effectuer</caption>
+ <textarea name="textArea" rows="4" cols="40" placeholder="Add Task Here"></textarea>
+ <button type="submit" name="button">Ajouter</button>
+ </form>
+ 
