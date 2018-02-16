@@ -13,13 +13,13 @@
 <body>
   <div class="contenu">
     <?php
-    include 'contenu.php';
+      include './contenu.php';
     ?>
   </div>
 
   <div class="formulaire">
     <?php
-      require 'formulaire.php';
+      require './formulaire.php';
      ?>
   </div>
 </body>
