@@ -8,7 +8,6 @@
     file_put_contents('assets/JSON/todo.json',$Wallah);
     header('location:index.php');
   }
-
  ?>
 
  <form class="" action="index.php" method="post">

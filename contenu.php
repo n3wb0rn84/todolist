@@ -11,16 +11,9 @@
         file_put_contents('assets/JSON/todo.json',$Wallah);
         header('location: index.php');
       }
-      // $checked = $_POST['checkbox'];
-      // array_push($taskArray1->done, $todo1[$checked]);
-      // unset($taskArray1->todo[$checked]);
-      // $Wallah=json_encode($taskArray1);
-      // file_put_contents('assets/JSON/todo.json',$Wallah);
-      // header('location: index.php');
     }
-
-
  ?>
+
 <h2>A FAIRE</h2>
 <form class="" action="index.php" method="post">
 <ul>
@@ -39,5 +32,4 @@
   ?>
   <li class="done"><input type="checkbox" name="checkboxed" value="<?=$key?>" checked="true"><?=$value?></li>
 <?php }?>
-<?php ?>
 </ul>
