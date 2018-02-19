@@ -16,13 +16,7 @@
       include "contenu.php";
     ?>
   </div>
-</body>
-<body>
-  <div class="formulaire">
-    <?php
-      include "formulaire.php";
-    ?>
-  </div>
+<?php include "formulaire.php";?>
 </body>
 
 </html>
