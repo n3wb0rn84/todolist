@@ -9,8 +9,6 @@
     header('location:index.php');
   }
  ?>
-
-
  <form class="Ajouts" action="index.php" method="post">
    <h2>Ajouter une tâche</h2>
    <caption>La tâche à effectuer</caption>
