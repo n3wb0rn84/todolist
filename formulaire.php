@@ -15,4 +15,3 @@
    <textarea name="textArea" rows="4" cols="40" placeholder="Add Task Here"></textarea>
    <button type="submit" name="button">Ajouter</button>
  </form>
- <?php ?>

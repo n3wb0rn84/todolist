@@ -15,7 +15,7 @@
       header('location:index.php');
     }
  ?>
-
+<div class="contenu">
 <h2>A FAIRE</h2>
 <form class="todo-list" action="index.php" method="post">
 <ul>
@@ -35,3 +35,7 @@
   <li class="done"><input type="checkbox" name="checkboxed" value="<?=$key?>" checked="true"><?=$value?></li>
 <?php }?>
 </ul>
+</div>
+<div class="formulaire">
+  <?php include 'formulaire.php'; ?>
+</div>

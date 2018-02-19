@@ -11,12 +11,9 @@
 </head>
 
 <body>
-  <div class="contenu">
     <?php
       include "contenu.php";
     ?>
-  </div>
-<?php include "formulaire.php";?>
 </body>
 
 </html>
