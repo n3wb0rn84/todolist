@@ -7,12 +7,11 @@
       foreach ($_POST['checkbox'] as $value) {
         array_push($taskArray1->done, $taskArray1->todo[$value]);
         unset($taskArray1->todo[$value]);
-        $taskArray1->todo=array_values(array_filter($taskArray1->todo));
-        $Wallah=json_encode($taskArray1, true);
-        file_put_contents('assets/JSON/todo.json',$Wallah);
-        header('location:index.php');
       }
-
+      $taskArray1->todo=array_values($taskArray1->todo);
+      $Wallah=json_encode($taskArray1);
+      file_put_contents('assets/JSON/todo.json',$Wallah);
+      header('location:index.php');
     }
  ?>
 
