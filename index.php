@@ -17,11 +17,12 @@
     ?>
   </div>
 </body>
-<footer>
+<body>
   <div class="formulaire">
     <?php
-      require "formulaire.php";?>
+      include "formulaire.php";
+    ?>
   </div>
-</footer>
+</body>
 
 </html>
