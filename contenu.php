@@ -5,6 +5,7 @@
   $done1 = $taskArray1->done;
     if (isset($_POST['checkbox'])){
       foreach ($_POST['checkbox'] as $value) {
+
         array_push($taskArray1->done, $taskArray1->todo[$value]);
         unset($taskArray1->todo[$value]);
       }
