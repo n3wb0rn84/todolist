@@ -16,11 +16,12 @@
       include "contenu.php";
     ?>
   </div>
-
+</body>
+<footer>
   <div class="formulaire">
     <?php
-      include "formulaire.php"?>
+      require "formulaire.php";?>
   </div>
-</body>
+</footer>
 
 </html>
