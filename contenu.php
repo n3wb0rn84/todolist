@@ -1,5 +1,4 @@
 <?php
-  include 'formulaire.php';
   $task1 = file_get_contents('assets/JSON/todo.json',true);
   $taskArray1 = json_decode($task1);
   $todo1 = $taskArray1->todo;
@@ -44,5 +43,5 @@
     <textarea name="textArea" rows="4" cols="40" placeholder="Add Task Here"></textarea>
     <button type="submit" name="button">Ajouter</button>
   </form>
-  <?php  ?>
+  <?php include "formulaire.php";  ?>
 </div>
