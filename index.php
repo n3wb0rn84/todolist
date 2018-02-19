@@ -13,7 +13,6 @@
 <body>
     <?php
       include "contenu.php";
-      include 'formulaire.php';
     ?>
 </body>
 
