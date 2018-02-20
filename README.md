@@ -3,15 +3,19 @@ Travail réalisé en 5jours au total , pour réaliser une web app en php faisant
 
 ##Equipe:
 
-Binôme composé de : ---
+Binôme composé de :
 
-*Jordan Peter* ---
-*Olivier Courbe* ---
+***
+*Jordan Peter*
+***
+*Olivier Courbe*
 
 ##Technologie utilisées:
 
 HTML5
+***
 CSS3
+***
 PHP
 
 ##Report:
