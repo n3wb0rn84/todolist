@@ -3,10 +3,10 @@
 
 ##Equipe:
 
-Binôme composé de :
+Binôme composé de : ---
 
--*Jordan Peter* --
--*Olivier Courbe* --
+-*Jordan Peter* ---
+-*Olivier Courbe* ---
 
 ##Technologie utilisées:
 
