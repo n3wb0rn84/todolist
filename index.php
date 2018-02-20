@@ -11,9 +11,20 @@
 </head>
 
 <body>
+  <div class="contenu">
     <?php
       include "contenu.php";
     ?>
+  </div>
+  <div class="formulaire">
+    <form class="Ajouts" action="index.php" method="post">
+      <h2>Ajouter une tâche</h2>
+      <caption>La tâche à effectuer</caption>
+      <textarea name="textArea" rows="4" cols="40" placeholder="Add Task Here"></textarea>
+      <button type="submit" name="button">Ajouter</button>
+    </form>
+    <?php include "formulaire.php";?>
+  </div>
 </body>
 
 </html>
