@@ -1,18 +1,18 @@
 # todolist
--Travail réalisé en 5jours au total , pour réaliser une web app en php faisant office de "To do" list.
+Travail réalisé en 5jours au total , pour réaliser une web app en php faisant office de "To do" list.
 
 ##Equipe:
 
 Binôme composé de : ---
 
--*Jordan Peter* ---
--*Olivier Courbe* ---
+*Jordan Peter* ---
+*Olivier Courbe* ---
 
 ##Technologie utilisées:
 
--HTML5
--CSS3
--PHP
+HTML5
+CSS3
+PHP
 
 ##Report:
 
